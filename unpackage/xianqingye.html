@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/iconfont.css" rel="stylesheet" />
+		<link href="css/xianmu.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div style="position: fixed;z-index: 2 ;width: 100%;height: 30px;">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="font-size: 30px;"></a>
+		    <span class="mui-icon mui-icon-more"  style="color: white;background-color:#AAAAAA;border-radius: 15px;
+		    	float: right;margin-right: 5%;font-size: 25px;margin-top:5px;"></span>
+		    <span class="mui-icon iconfont icon-gouwuche" style="color: white;background-color:#AAAAAA;border-radius: 15px;
+		    	float: right;margin-right: 10%;font-size: 25px;margin-top:5px;"></span>
+		    	
+		</div>
+		<div class="mui-content" >
+		    <div id="slider" class="mui-slider" >
+		      <div class="mui-slider-group mui-slider-loop">
+		        <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+		        <div class="mui-slider-item mui-slider-item-duplicate">
+		          <a href="#">
+		            <img src="images/4x.jpg">
+		          </a>
+		        </div>
+		        <!-- 第一张 -->
+		        <div class="mui-slider-item">
+		          <a href="#">
+		            <img src="images/4x.jpg">
+		          </a>
+		        </div>
+		        <!-- 第二张 -->
+		        <div class="mui-slider-item">
+		          <a href="#">
+		            <img src="images/4x.jpg">
+		          </a>
+		        </div>
+		        <!-- 第三张 -->
+		        <div class="mui-slider-item">
+		          <a href="#">
+		            <img src="images/4x.jpg">
+		          </a>
+		        </div>
+		        <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+		        <div class="mui-slider-item mui-slider-item-duplicate">
+		          <a href="#">
+		            <img src="images/4x.jpg">
+		          </a>
+		        </div>
+		      </div>
+		      <div class="mui-slider-indicator">
+		        <div class="mui-indicator mui-active"></div>
+		        <div class="mui-indicator"></div>
+		        <div class="mui-indicator"></div>
+		      </div>
+		    </div>
+		    <div style="width: 100%;height: 120px;background-color: white;">
+		    	<p style="float: left;font-size: 17px;margin-top: 10px;color: #000000;width: 75%;">Aptamil 德国爱美 婴儿奶粉 2段/800克3罐装 6~10个月</p>
+		    	<div class="shoucang">
+		    	<span class="mui-icon mui-icon-star"></span><p >收藏</p>
+		    	</div>
+		    	<div class="jiage" style="float: left; width: 20%;">
+		    		<p style="font-size: 20px;margin-left: 10px;color: #FF0000;">¥445.00</p>
+		    		<del style="margin-left: 10px; color: #B6B6B6;" >¥998.00</del>
+		    	</div>
+		    	<div class="biaoqian" style="float: right; list-style-type: none; width: 55%;margin-left: 10px;">
+		    		<ul class="biaoqian-ul1">
+		    			<li>6.5折</li>
+		    			<li>包邮</li>
+		    		</ul>
+		    		<ul class="biaoqian-ul2">
+		    			<li>正品货源1</li>
+		    			<li>一件代发</li>
+		    			<li>全球直邮</li>
+		    		</ul>
+		    	</div>
+		    </div>
+		    <div class="xuanxianka" style="width: 100%;height: auto;background-color: white;margin-top: 20px; ">
+		    	<ul style="color: #999999;">
+		    		<li class="xuan-x"id="shanping">商品信息</li><li id="maijia">买家口碑</li>
+		    	</ul>
+		    </div>
+		    <img id="shanping-p" src="images/16.jpg" width="80%"style="margin-left: 10%;"/>
+		    <div id="koubei" style="display: none;">
+		    	<ul style="color: #999999;">
+		    		<li class="koubei-x">全部评价</li>
+		    		<li>  好 评  </li>
+		    		<li>  差 评  </li>
+		    		<li>  晒 单  </li>
+		    	</ul>
+		    	<img src="images/15.jpg" / style="width: 80%;margin-left: 10%;margin-top: 20px;">
+		    	<img src="images/15.jpg" / style="width: 80%;margin-left: 10%;">
+		    	<img src="images/15.jpg" / style="width: 80%;margin-left: 10%;">
+		    </div>
+		    <div style="width: 100%;height: 50px;background-color: white;"></div>
+		    <div class="goumai-xq1"></div>
+		    <div class="goumai-xq">
+		    	<img src="images/tb.jpg"/ style="float: left;"id="xq-img1">
+		    	<p class="xq-q">
+		    		<em style="color: red; " id="em1";>¥445</em><br/>库存123456件<br />请选择商品属性
+		    	</p>
+		    	<img id="close" src="images/close.jpg"/ style="width: 30px;height: 30px;margin:20px 20px;float: right;">
+		    	<p style="position: absolute;left: 20px;top: 125px;font-size: 20px;color: black;">购买数量</p>
+		    	
+		    	<div id="nunber-id" class="mui-numbox" data-numbox-step='1' data-numbox-min='0' data-numbox-max='10'
+		    		 style="position:absolute ;right: 20px;top: 120px;">
+		    	    <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+		    	    <input class="mui-input-numbox" type="number" />
+		    	    <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+		    	</div>
+		    	<p style="position: absolute;left: 20px;top: 170px;font-size: 20px;color: black;">大小</p>
+		    	<ul id="xq-ul1" style="list-style-type: none;position: absolute;left: 15px;top: 210px; ">
+		    		<li class="koubei-x">1L</li>
+		    		<li class="koubei-y">2L</li>
+		    		<li class="koubei-y">3L</li>
+		    		<li class="koubei-y">4L</li>
+		    	</ul>
+		    	<p style="position: absolute;left: 20px;top: 250px;font-size: 20px;color: black;">年龄</p>
+		    	<ul id="xq-ul2" style="list-style-type: none;position: absolute;left: 15px;top: 290px; ">
+		    		<li class="koubei-x">1岁以下</li>
+		    		<li class="koubei-y">3岁以下</li>
+		    	</ul>
+		    </div>
+		    <div class="goumai" >
+		    	<p style="float: left; color: black; font-size: 20px;margin-top: 15px;">总价:</p>
+		    	<em id="em2" style="color: #FF0000;float: left; font-size: 20px;margin-top: 15px;margin-left: 10px;">¥0.00</em>
+		    	<button style="background-color: red;">立即购买</button>
+		    	<button  id="goumai-btn"style="background-color: #FF9900;">加入购物车</button>
+		    	
+		    </div>
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<script>
+			$(".shoucang").click(function(){
+				$(".shoucang,.shoucang p").toggleClass("sc-red");//   收藏按钮样式切换
+			});
+			$(".xuanxianka li").on("click",function(){
+				$(this).addClass("xuan-x").siblings().removeClass("xuan-x");//   按钮样式切换
+			});
+			$("#shanping").on("click",function(){//   商品，口碑板块切换
+				$("#shanping-p").show();
+				$("#koubei").hide();
+			});
+			$("#maijia").on("click",function(){
+				$("#shanping-p").hide();
+				$("#koubei").show();
+			});
+			$("#koubei li").on("click",function(){
+				$(this).addClass("koubei-x").siblings().removeClass("koubei-x");//   按钮样式切换
+			});
+			var index=0; var danjia=445; var zongjia; var shuliang=0;
+			
+			$("#xq-ul1 li,#xq-ul2 li").on("click",function(){//   按钮样式切换
+				$(this).removeClass("koubei-y").addClass("koubei-x").siblings().addClass("koubei-y").removeClass("koubei-x");
+			});
+			$("#close").click(function(){
+				$(".goumai-xq,.goumai-xq1").hide();				//   隐藏购买界面
+			});
+			$(".goumai-xq1").click(function(){
+				$(".goumai-xq,.goumai-xq1").hide();				//   隐藏购买界面
+			});
+			$("#goumai-btn").click(function(){  		//   显示购买界面
+				$(".goumai-xq,.goumai-xq1").show();
+			});
+		 $("#xq-ul1 li").on("click",function(){ 		//   不同大小不同单价
+			 index = $(this).index()+1;
+				danjia = 445*index;
+				shuliang= mui("#nunber-id").numbox().getValue();//   获取数量值
+				zongjia = shuliang*danjia;
+				$("#em2").html("¥"+zongjia);
+				$("#em1").html("¥"+danjia).attr("value","danjia"); 
+		 });
+		$("#nunber-id button").on("click",function(){
+			shuliang= mui("#nunber-id").numbox().getValue();//   计算总价
+			zongjia = shuliang*danjia;
+				$("#em2").html("¥"+zongjia);
+		});
+		 
+		</script>
+	</body>
+
+</html>
