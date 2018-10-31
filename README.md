@@ -1,8 +1,9 @@
-网页首页，及各小功能，点击下列链接即可查看效果图<br/>
-<a href="http://thyrsi.com/t6/402/1540989438x-1566688526.png" target="_blank">网页首页1</a><br/>
-<a href="http://thyrsi.com/t6/402/1540989470x-1566688526.png" target="_blank">网页首页2</a><br/>
-<a href="http://thyrsi.com/t6/402/1540989352x-1566688526.png" target="_blank">放大镜</a><br/>
-<a href="http://thyrsi.com/t6/402/1540989208x-1566688526.png" target="_blank">抽奖</a><br/>
-<a href="http://thyrsi.com/t6/402/1540989270x-1566688526.png" target="_blank">二级省市联动</a><br/>
-<a href="http://thyrsi.com/t6/402/1540989141x-1566688526.png" target="_blank">tab切换</a><br/>
-<a href="http://thyrsi.com/t6/402/1540989407x-1566688526.png" target="_blank">图片高亮</a><br/>
+手机端淘宝网页<br/>
+<a href="http://thyrsi.com/t6/402/1540989510x-1566688526.png" target="_blank">首页</a><br/>
+<a href="http://thyrsi.com/t6/402/1540989554x-1566688526.png" target="_blank">分类</a><br/>
+<a href="http://thyrsi.com/t6/402/1540989822x-1566688526.png" target="_blank">详情页1</a><br/>
+<a href="http://thyrsi.com/t6/402/1540989844x-1566688526.png" target="_blank">详情页2</a><br/>
+<a href="http://thyrsi.com/t6/402/1540991346x-1404781180.png" target="_blank">详情页3</a><br/>
+<a href="http://thyrsi.com/t6/402/1540991371x-1404781180.png" target="_blank">个人中心</a><br/>
+<a href="http://thyrsi.com/t6/402/1540989759x-1566688526.png" target="_blank">购物车</a><br/>
+
